@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
 class TextSection extends StatelessWidget {
-  const TextSection({Key? key}) : super(key: key);
+  Color _color;
+
+  TextSection(Color color) {
+    this._color = color;
+  }
   @override
   Widget build(BuildContext context) {
     return Container(

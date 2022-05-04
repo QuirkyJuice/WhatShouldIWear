@@ -6,6 +6,7 @@ import 'text_section.dart';
 
 class LocationDetail extends StatelessWidget {
   const LocationDetail({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
